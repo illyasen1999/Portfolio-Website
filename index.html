@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./sass/dist/style.css">
+    <link rel="shortcut icon" href="./imgs/Eevee-Gigantamax.png" type="image/x-icon">
+    <script defer src="https://kit.fontawesome.com/bcf8404773.js" crossorigin="anonymous"></script>
+    <script defer src="script.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+    <title>Beginner Portfolio Website</title>
+</head>
+<body>
+    <header class="headerBar">
+        <p class="logo">Mikhail</p>
+        
+        <ul class="menus">
+            <li class="menuItems"><a href="#main" class="menuAnchor">About</a></li>
+            <li class="menuItems"><a href="#languages" class="menuAnchor">Languages</a></li>
+            <li class="menuItems"><a href="#projects" class="menuAnchor">Projects</a></li>
+        </ul>
+        
+    </header>
+
+    <span id="main"></span>
+
+    <main class="main">
+        <section class="intro" id="about">
+            <figure class="img-figure">
+                <img src="./imgs/Eevee-Gigantamax.png" alt="profile" class="profile-img">
+                <h1 class="intro-name">Mikhail Quitain</h1>
+            </figure>
+
+            <div class="profile-div">
+                <a href="https://twitter.com" class="fa-brands fa-twitter" target="_blank"></a>
+                <a href="https://github.com/illyasen1999" class="fa-brands fa-github" target="_blank"></a>
+                <a href="https://www.linkedin.com/in/mikhail-quitain-956049225/" class="fa-brands fa-linkedin" target="_blank"></a>
+            </div>
+
+            <center class="intro-div">
+                <h1 class="top-p">Hello i'm 
+                    <strong class="name">Mikhail Quitain</strong>.
+                </h1>
+                <p class="intro-p">
+                    I'm an aspiring Web Developer. I graduated college and now is still improving my web dev skills.
+                </p>
+            </center>
+        </section>
+    
+        <span id="languages"></span>
+        
+        <center class="language-center">
+            <h2 class="languages-label label">
+                My Languages
+            </h2>
+
+            <article class="languages">
+                <section class="html-sec lang-sec">
+                    <img src="./imgs/icons/icons8-html-5.svg" alt="html-img" class="lang-imgs html-logo">
+                    <h2 class="title-html">HTML</h2>
+                    <p>The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript.</p>
+                </section>
+    
+                <section class="css-sec lang-sec">
+                    <img src="./imgs/icons/icons8-css3.svg" alt="css-img" class="lang-imgs css-logo">
+                    <h2 class="title-css">CSS</h2>
+                    <p>Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.</p>
+                </section>
+    
+                <section class="js-sec lang-sec">
+                    <img src="./imgs/icons/icons8-javascript.svg" alt="js-img" class="lang-imgs js-logo">
+                    <h2 class="title-js">Javascript</h2>
+                    <p>JavaScript, often abbreviated JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries. </p>
+                </section>
+            </article>
+        </center>
+        
+        <span id="projects"></span>
+
+        <article class="projects">
+            <h2 class="github-label label">Github Projects</h2>
+
+            <div class="git-project-section">
+                <section class="git-proj starting html">
+                    <h2 class="project-title">Starting Languages</h2>
+                    <p class="project-description">Starting Languages website design</p>
+                    <a target="_blank" href="https://github.com/illyasen1999/startinglanguages" class="git-links">Click here for repo</a><br>
+                    <span class="main-language-html title-html">🟠HTML</span>
+                </section>
+    
+                <section class="git-proj aroma css">
+                    <h2 class="project-title">Aroma Kopi</h2>
+                    <p class="project-description">Aroma Kopi website design</p>
+                    <a target="_blank" href="https://github.com/illyasen1999/AromaKopi" class="git-links">Click here for repo</a><br>
+                    <span class="main-language-css title-css">🟣CSS</span>
+                </section>
+    
+                <section class="git-proj website css">
+                    <h2 class="project-title">Illyasen-web</h2>
+                    <p class="project-description">Just a starter Portfolio Website</p>
+                    <a target="_blank" href="https://github.com/illyasen1999/illyasen-web" class="git-links">Click here for repo</a><br>
+                    <span class="main-language-css title-css">🟣CSS</span>
+                </section>
+    
+                <section class="git-proj pokedex js">
+                    <h2 class="project-title">Illyasen-Pokedex</h2>
+                    <p class="project-description">Scuffed Pokedex</p>
+                    <a target="_blank" href="https://github.com/illyasen1999/Illyasen-Pokedex" class="git-links">Click here for repo</a><br>
+                    <span class="main-language-js title-js">🟡JavaScript</span>
+                </section>
+    
+                <section class="git-proj periodic js">
+                    <h2 class="project-title">Illyasen-Periodic-Table</h2>
+                    <p class="project-description">Periodic Table project</p>
+                    <a target="_blank" href="https://github.com/illyasen1999/Illyasen-Periodic-Table" class="git-links">Click here for repo</a><br>
+                    <span class="main-language-js title-js">🟡JavaScript</span>
+                </section>
+            </div>
+        </article>
+
+    </main>
+
+    <footer class="footer">
+        <h2 class="footer-logo">Mikhail Quitain ©</h2>
+    </footer>
+
+</body>
+</html>

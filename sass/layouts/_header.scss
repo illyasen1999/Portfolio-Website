@@ -1,0 +1,44 @@
+@use '../abstracts' as *;
+// Resume working on StartMini
+
+.headerBar{
+    // background-color: rgba(9, 9, 9, 0.715);
+    background-color: $dark-color;
+    // height: 60px;
+    color: $light-color;
+    padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+}
+.logo{
+    font-size: 2rem;
+    width: 50%;
+    font-family: $space-grotesk;
+    font-weight: $space-meduim;
+    color: $light-color;
+}
+.menus{
+    display: flex;  
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30%;
+}
+.menuItems{
+    width: 33.3%;
+    text-align: center;
+}
+
+.menuAnchor{
+    color: $light-color;
+    font-family: $space-grotesk;
+    font-size: $space-bold;
+    font-size: 1.5rem;
+    cursor: pointer;
+    &:hover{
+        color: $blue-color;
+        transition: 0.5s;
+    }
+}

@@ -1,0 +1,124 @@
+/* 
+Breakpoints
+320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV 
+*/
+
+/* Mobile Sizes */
+@media screen and (max-width: 1200px) {
+    /* Header */
+    .headerBar{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .logo, .menus{
+        text-align: center;
+        width: 100%;
+    }
+    .menuAnchor, .logo{
+        font-size: 1.5rem;
+    }
+
+    /* Main */
+    .main{
+        padding-top: 7rem;
+    }
+    .profile-img{
+        width: 150px;
+    }
+    .intro-name{
+        font-size: 3rem;
+    }
+    .top-p, .name, .intro-p{
+        font-size: 1.8rem;
+    }
+    .language-center{
+        margin: 7rem 0;
+    }
+    .languages{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .lang-sec{
+        width: 85%;
+    }
+    .projects{
+        margin: 2rem 0 0 0;
+    }
+    .git-project-section{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .git-proj{
+        font-size: 1rem;
+        width: 60%;
+    }
+    .aroma{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .intro-name{
+        font-size: 2rem;
+    }
+    .top-p, .name, .intro-p{
+        font-size: 1.5rem;
+    }
+    .lang-sec{
+        font-size: 1.5rem;
+    }
+    .projects{
+        /* margin: 2rem 0 0 0; */
+        padding: 1rem;
+    }
+    .git-proj{
+        font-size: 1rem;
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .fa-brands{
+        padding: 0.95rem;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .fa-brands{
+        border-radius: 50%;
+        padding: 1rem;
+        font-size: 2rem;
+        align-self: center;
+    }
+    .intro-name{
+        font-size: 1.5rem;
+    }
+    .top-p, .name, .intro-p{
+        font-size: 1.3rem;
+    }
+    .label{
+        font-size: 2.5rem;
+    }
+    .github-label{
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+    }
+    .lang-sec{
+        font-size: 1rem;
+        width: 90%;
+    }
+    .lang-imgs{
+        width: 80px;
+    }
+    .git-proj{
+        width: 70%;
+    }
+}

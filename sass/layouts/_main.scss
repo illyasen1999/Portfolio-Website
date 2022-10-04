@@ -1,0 +1,194 @@
+@use '../abstracts' as *;
+
+/* Main Content */
+.main{
+    width: 100%;
+    /* height: 1920px; */
+    padding-top: 5rem;
+    /* 1.5rem 1rem */
+    /* margin-bottom: 30rem; */
+    font-family: $space-grotesk;
+    font-size: $space-bold;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.intro{
+    /* border: 2px solid cyan; */
+    padding: 1rem;
+    display: flex;
+    gap: 0.50rem;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.intro-name{
+    font-size: 4rem;
+    color: $blue-color;
+}
+.name{
+    color: $blue-color;
+}
+.img-div{
+    font-size: 4rem;
+    color: $blue-color;
+    font-family: $roboto-mono;
+    font-weight: $roboto-bold;
+}
+.profile-img{
+    border: 0.25rem solid $blue-color;
+    border-radius: 50%;
+    width: 15%;
+    padding: 10px;
+}
+.profile-div{
+    /* border: 2px solid green; */
+    padding: 1rem;
+    gap: 1rem;
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+.img-figure{
+    font-size: 4rem;
+    color: $blue-color;
+    font-family: $roboto-mono;
+    font-weight: $roboto-bold;
+}
+.fa-brands{
+    border-radius: 50%;
+    background-color: $dark-color;
+    padding: 1.25rem;
+    font-size: 2rem;
+    &:hover{
+        background-color: $light-color;
+    }
+    // applicable if a class have multiple names
+    &.fa-twitter{
+        color: $twitter-color;
+    }
+    &.fa-linkedin{
+        color: $linikedin-color;
+    }
+    &.fa-github{
+        color: $light-color;
+        &:hover{
+            color: $dark-color;
+        }
+    }
+}
+.intro-p, .top-p{
+    font-size: 2rem;
+    width: 80%;
+    font-family: $roboto-mono;
+    font-weight: $roboto-bold;
+    color: $light-color;
+    word-spacing: 10px;
+}
+.label{
+    font-size: 3rem;
+    font-weight: $roboto-bold;
+    color: $blue-color;
+}
+.language-center{
+    margin: 5rem 0;
+}
+.my-languages{
+    font-size: 3rem;
+    font-weight: $roboto-bold;
+    color: $blue-color;
+}
+.languages{
+    font-family: $roboto-mono;
+    font-weight: $roboto-bold;
+    color: $dark-color;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+    padding: 2rem;
+    /* background-color: $light-color; */
+    gap: 2rem;
+}
+.lang-imgs{
+    padding: 1rem;
+    /* background-color: var(); */
+    /* border-radius: 50%; */
+    width: 35%;
+}
+.lang-sec{
+    width: 33.3%;
+    border-radius: 20px;
+    border: 2px solid $dark-color;
+    background-color: $light-color;
+    box-shadow: 10px 15px $blue-color;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+.title-html{
+    color: $html-colors;
+}
+.title-css{
+    color: $css-colors;
+}
+.title-js{
+    color: $js2-colors;
+}
+.projects{
+    margin: 0 0 8rem 0;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.github-label{
+    margin: 3rem 0;
+}
+.git-project-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 2rem;
+    row-gap: 2rem;
+}
+.git-proj{
+    border-radius: 20px;
+    border: 2px solid $light-color;
+    background-color: $yankees-blue;
+    padding: 1.5rem;
+    color: $light-color;
+    /* width: 33.3%; */
+    &.html:hover{
+        transition: 0.5s;
+        box-shadow: 1px 1px 35px $html2-colors;
+    }
+    &.css:hover{
+        transition: 0.5s;
+        box-shadow: 1px 1px 35px $css2-colors;
+    }
+    &.js:hover{
+        transition: 0.5s;
+        box-shadow: 1px 1px 35px $js-colors;
+    }
+}
+.git-links{
+    color: $vivid-skyblue;
+}
+.project-title{
+    color: $blue-color;
+}
+.periodic{
+    grid-column: 3;
+    grid-row: 2 / 2;
+}
+.aroma{
+    grid-column: 2;
+    grid-row: 1 / 3;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    font-size: 1.5rem;
+}

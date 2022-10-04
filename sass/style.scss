@@ -1,0 +1,8 @@
+// fontawsome might not work try searching "scss + fontawsome"
+// Sass Starting Point
+// convert style.css to style.scss
+
+@use './layouts/header';
+@use './layouts/main';
+@use './layouts/mobile';
+@use './layouts/footer';
