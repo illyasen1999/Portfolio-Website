@@ -151,21 +151,24 @@
 }
 .git-proj{
     border-radius: 20px;
-    border: 2px solid $light-color;
+    border: 2px solid transparent;
     background-color: $yankees-blue;
     padding: 1.5rem;
     color: $light-color;
     &.html:hover{
         transition: 0.5s;
         box-shadow: 1px 1px 35px $html2-colors;
+        border: 2px solid $html2-colors;
     }
     &.css:hover{
         transition: 0.5s;
         box-shadow: 1px 1px 35px $css2-colors;
+        border: 2px solid $css2-colors;
     }
     &.js:hover{
         transition: 0.5s;
         box-shadow: 1px 1px 35px $js-colors;
+        border: 2px solid $js2-colors;
     }
 }
 .git-links{
