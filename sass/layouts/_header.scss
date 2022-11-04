@@ -2,9 +2,9 @@
 // Resume working on StartMini
 
 .headerBar{
-    // background-color: rgba(9, 9, 9, 0.715);
-    background-color: $dark-color;
-    // height: 60px;
+    // Background Blur: https://dev.to/shrihari/navbar-with-background-blur-aesthetic-look-in-2-lines-of-code--4kp6
+    background: transparent;
+    backdrop-filter: blur(10px);
     color: $light-color;
     padding: 1rem 1.5rem;
     display: flex;

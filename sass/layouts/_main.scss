@@ -107,15 +107,11 @@
     font-size: 1.5rem;
     display: flex;
     justify-content: space-evenly;
-    /* flex-wrap: wrap; */
     padding: 2rem;
-    /* background-color: $light-color; */
     gap: 2rem;
 }
 .lang-imgs{
     padding: 1rem;
-    /* background-color: var(); */
-    /* border-radius: 50%; */
     width: 35%;
 }
 .lang-sec{
@@ -159,7 +155,6 @@
     background-color: $yankees-blue;
     padding: 1.5rem;
     color: $light-color;
-    /* width: 33.3%; */
     &.html:hover{
         transition: 0.5s;
         box-shadow: 1px 1px 35px $html2-colors;
