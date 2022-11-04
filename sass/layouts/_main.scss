@@ -119,9 +119,18 @@
     border-radius: 20px;
     border: 2px solid $dark-color;
     background-color: $light-color;
-    box-shadow: 10px 15px $blue-color;
+    // box-shadow: 10px 15px $blue-color;
     padding: 1rem;
     font-size: 1.5rem;
+    &.html-sec{
+        box-shadow: 10px 15px $html2-colors;
+    }
+    &.css-sec{
+        box-shadow: 10px 15px $css2-colors;
+    }
+    &.js-sec{
+        box-shadow: 10px 15px $js2-colors;
+    }
 }
 .title-html{
     color: $html-colors;
