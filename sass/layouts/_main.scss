@@ -163,6 +163,7 @@
     background-color: $yankees-blue;
     padding: 1.5rem;
     color: $light-color;
+    transition: 0.5s;
     &.html:hover{
         transition: 0.5s;
         box-shadow: 1px 1px 35px $html2-colors;
