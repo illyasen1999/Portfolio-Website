@@ -36,9 +36,10 @@
     font-family: $space-grotesk;
     font-size: $space-bold;
     font-size: 1.5rem;
+    transition: ease-in-out 0.3s;
     cursor: pointer;
     &:hover{
         color: $blue-color;
-        transition: 0.5s;
+        // transition: ease-in-out 0.3s;
     }
 }
