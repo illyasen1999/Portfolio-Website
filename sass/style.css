@@ -48,11 +48,12 @@ html {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  width: 30%;
+  width: 25%;
+  gap: 1rem;
 }
 
 .menuItems {
-  width: 33.3%;
+  width: 20%;
   text-align: center;
 }
 
